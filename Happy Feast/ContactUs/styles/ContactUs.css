@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+}
+main {
+  margin-top: 15%;
+  margin-left: 40%;
+  padding-bottom: 10%;
+  font-family: sans-serif;
+  position: absolute;
+  overflow-y: auto;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+#nav_menu {
+  display: none;
+}
+
+form span {
+  color: red;
+}
+
+#pFormat {
+  padding-top: 10px;
+  text-align: center;
+  color: maroon;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+form img {
+  height: 30px;
+  width: 30px;
+  padding-top: 20px;
+}
+
+/* Display for screen larger than Portrait Phones*/
+
+@media only screen and (min-width: 768px) {
+  /*main {
+    margin-top:20%;
+
+}*/
+
+  .search_holder input {
+    top: 5px;
+    left: 10px;
+  }
+
+  .search_holder {
+    width: 40%;
+    margin: 37px 0 0 40%;
+  }
+}
+/* End Display for computers*/
+
+fieldset {
+  border-color: maroon;
+}
+
+b {
+  color: maroon;
+}
+
+h2 {
+  text-align: center;
+  font-size: 205%;
+  width: 70%;
+}
+
+#sendButton {
+  border-radius: 5px;
+  border: 2px solid grey;
+  background-color: gold;
+  box-shadow: 1px 1px 1px #999;
+  font-weight: bold;
+  color: maroon;
+}
+#resetButton {
+  border-radius: 5px;
+  border: 2px solid gold;
+  background-color: #999;
+  box-shadow: 1px 1px 1px grey;
+  font-weight: bold;
+  color: maroon;
+}
+
+form {
+  border: 6px solid gold;
+  padding-top: 1em;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 4px 4px grey;
+  width: 60%;
+}
+form input {
+  width: 95%;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  height: 80px;
+  width: 95%;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+
+/* Display for mobiles and tablets*/
+@media only screen and (max-width: 767px) {
+  main {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+    min-width: 470px;
+    height: auto;
+  }
+
+  form {
+    width: 75%;
+  }
+  .search_holder input {
+    top: 50px;
+    left: 13px;
+  }
+
+  .search_holder {
+    width: 100%;
+    margin: 120px 0 0 0%;
+  }
+
+  #side {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+    margin-top: 155px;
+    position: relative;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 200%;
+    width: 87%;
+  }
+}
+/* End Display for mobiles and tablets*/
+
+/* Header Styles Start */
+.header_wrapper {
+  width: 100%;
+  height: 19%;
+  position: fixed;
+  top: 0;
+  background-image: linear-gradient(to right, #ff9800c7 55%, yellow);
+  z-index: 10;
+}
+
+.feast_logo {
+  width: 125px;
+  height: 100%;
+  float: right;
+}
+
+.ofo_txt {
+  position: absolute;
+  margin: 38px 0 0 7%;
+  font-size: 36px;
+  font-family: emoji;
+  color: maroon;
+}
+
+.search_holder {
+  height: 40px;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0, 0.29) 2px 4px 5px;
+}
+
+.search_holder img {
+  width: 30px;
+  position: absolute;
+}
+
+.search_holder input {
+  outline: none;
+  border: none;
+  width: 30%;
+  height: 33px;
+  position: absolute;
+  left: 48px;
+  top: 2px;
+}
+
+/* Header Styles End*/
+
+.header_img_holder {
+  justify-self: flex-end;
+}
+
+/* Footer Styles Start */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6.1%;
+  background-image: linear-gradient(to right, #ff9800c7 70%, yellow);
+  z-index: 10;
+}
+
+.copyright_text {
+  position: absolute;
+  color: maroon;
+  opacity: 0.8;
+  font-size: 20px;
+  top: 10px;
+  left: 55px;
+  font-family: emoji;
+  font-weight: bold;
+}
+
+.social_site_icons {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.social_site_icons img {
+  width: 20px;
+}
+
+/* Footer Styles End */

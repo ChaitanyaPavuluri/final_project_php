@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Happy Feast</title>
+    <link rel="stylesheet" href="./Happy Feast/Login/LoginPageStyle.css" />
+    <link rel="stylesheet" href="./Happy Feast/Common/HeaderFooterStyle.css" />
+    <link rel="fav icon" href="./Happy Feast/Common/Images/favicon.png" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Login page" />
+    <meta name="keywords" content="Login" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header class="header_wrapper">
+      <img
+        alt="happyfeastLogo"
+        class="feast_logo"
+        src="./Happy Feast/Common/Images/happyfeastlogod.webp"
+      />
+      <h1 class="ofo_txt">Happy Feast</h1>
+    </header>
+
+    <form class="form" method="POST" action="./Happy Feast/Login/login.php">
+      <div class="container">
+        <label><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="username"
+          id="username"
+          required
+        />
+        <label><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          id="password"
+          required
+        />
+
+        <input class="button" type="submit" value="Login" name="login" />
+      </div>
+      <div class="container" style="background-color: #f1f1f1">
+        <input class="cancelbtn" type="button" value="Cancel" />
+      </div>
+    </form>
+    <footer>
+      <span class="copyright_text">Copyright &copy; 2022 HappyFeast</span>
+      <div class="social_site_icons">
+        <img alt="facebook" src="./Happy Feast/Common/Images/facebook.png" />
+        <img alt="google" src="./Happy Feast/Common/Images/google.png" />
+        <img alt="twitter" src="./Happy Feast/Common/Images/twitter.png" />
+      </div>
+    </footer>
+  </body>
+</html>

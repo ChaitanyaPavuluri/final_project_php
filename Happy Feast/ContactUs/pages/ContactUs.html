@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HappyFeast | Contact Us</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styles/ContactUs.css" />
+    <link rel="stylesheet" href="../styles/helper.css" />
+    <link rel="stylesheet" href="../styles/slicknav.css" />
+    <link rel="fav icon" href="../images/general/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This page provides a form and information for persons to contact the restaurant"
+    />
+  </head>
+  <body>
+    <header class="header_wrapper">
+      <img
+        alt="happyfeastLogo"
+        class="feast_logo"
+        src="../images/general/happyfeastlogod.webp"
+      />
+      <h1 class="ofo_txt">Contact Us</h1>
+    </header>
+    <div id="side">
+      <aside>
+        <ul>
+          <li><a href="../../HomePage/HomePage.html">Home</a></li>
+          <li>
+            <a href="../../foodOrder/pages/mealOrder.html">Order Food</a>
+          </li>
+          <li>
+            <a href="../../foodOrder/pages/orderTracking.html">Track order</a>
+          </li>
+          <li><a href="../../AboutUs/pages/AboutUs.html">AboutUs</a></li>
+          <li><a href="../../CareerPage/CareerPage.html">Career</a></li>
+          <li><a href="../../Logout/Logout.html">Logout</a></li>
+        </ul>
+      </aside>
+    </div>
+    <main>
+      <h2>Welcome to Our Contact Us Page</h2>
+      <form name="conForm" method="post" action="contactus.php">
+        <fieldset>
+          <legend><b>Want to Contact Us?</b></legend>
+          <p>
+            <em> You're in the right place!!</em> Please complete and submit the
+            form below and we will get in touch with you as soon as possible.
+          </p>
+          <label for="Fname">First Name</label> <br />
+          <input type="text" id="Fname" name="FName" /><span>*</span
+          ><br /><br />
+          <label for="Lname"> Last Name</label> <br />
+          <input type="text" id="Lname" name="LName" /><span>*</span
+          ><br /><br />
+          <label for="PhoneNum">Phone Number</label><br />
+          <input type="text" id="PhoneNum" name="number" /><br /><br />
+          <label for="EmailAdd">Email Address</label><br />
+          <input
+            type="text"
+            id="EmailAdd"
+            name="Emailadd"
+            required
+          /><span></span><br /><br />
+          <label>Please enter your question or comment below:</label>
+          <textarea id="comment" name="comment"> </textarea><br /><br />
+          <input type="submit" name="contactformsubmit" /><br />
+        </fieldset>
+        <span id="pFormat">We can also be contacted by Social Media</span>
+        <img src="../images/general/facebook.png" />
+        <img src="../images/general/twitter.png" />
+        <img src="../images/general/google.png" />
+      </form>
+    </main>
+    <footer>
+      <span class="copyright_text">Copyright &copy; 2022 HappyFeast</span>
+      <div class="social_site_icons">
+        <img alt="facebook" src="../images/general/facebook.png" />
+        <img alt="google" src="../images/general/google.png" />
+        <img alt="twitter" src="../images/general/twitter.png" />
+      </div>
+    </footer>
+  </body>
+</html>
